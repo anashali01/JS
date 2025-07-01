@@ -1,0 +1,12 @@
+let product = "Milk";
+let quantity = 2;
+let pricePerUnit = 50;
+let discount = 0.1;
+let totalPrice = quantity * pricePerUnit;
+let netamount = totalPrice - (totalPrice * discount);
+console.log(`Product: ${product}`);
+console.log(`Quantity: ${quantity}`);
+console.log(`Price per unit: ${pricePerUnit}`);
+console.log(`Total Price: ${totalPrice}`);
+console.log(`Discount: ${discount * 100}%`);
+console.log(`Net Amount: ${netamount}`);
