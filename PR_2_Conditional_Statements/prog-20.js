@@ -1,0 +1,10 @@
+let amount=400000;
+let year=10;
+let rate=0.06; 
+let intrest=amount*rate*year;
+let net=amount+intrest;
+console.log(`Amount: ${amount}`);
+console.log(`Year: ${year}`);
+console.log(`Rate: ${rate}`);
+console.log(`Intrest: ${intrest}`);
+console.log(`Net: ${net}`);
