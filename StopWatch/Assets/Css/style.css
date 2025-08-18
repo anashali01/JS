@@ -1,0 +1,66 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #3e3d3d;
+}
+
+.stopwatch h2{
+    font-size: 95px;
+    font-family: "Oswald";
+    color: whitesmoke;
+    font-weight: 900;
+}
+.stopwatch .btn1{
+    background-color: whitesmoke;
+    padding: 2px 30px;
+    border-radius: 10px;
+    border: 0;
+}
+.stopwatch .btn2{
+    background-color: #c5c507;
+    padding: 2px 30px;
+    border-radius: 10px;
+    border: 0;
+}
+.stopwatch .btn3{
+    background-color: #c8c7c5;
+    padding: 10px;
+    border-radius: 50%;
+    border: 0;
+}
+.data{
+    background-color: whitesmoke;
+    padding: 15px 25px 25px 25px;
+    margin-top: 45px;
+}
+.data h3{
+    color: black;
+    font-family: "Oswald";
+    font-weight: 900;
+    font-size: 35px;
+}
+.data p{
+    color: black;
+    font-size: 20px;
+}
+
+@media (max-width : 575px){
+    .data h3{
+        font-size: 20px;
+    }
+    .data p{
+        font-size: 15px;
+    }
+    .stopwatch h2{
+        font-size: 50px;
+    }
+    .stopwatch .btn3{
+        padding: 5px;
+    }
+    .data{
+        margin-top: 15px;
+    }
+}
